@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "explore-open-ai"
+version = "0.1.0"
+description = "Project for exploring open ai."
+authors = ["Dilip.Sundarraj <dilip.sundarraj@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+openai = "^1.74.0"
+python-dotenv = "^1.0.1"
+openai-agents = "0.0.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
